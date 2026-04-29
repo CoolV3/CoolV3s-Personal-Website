@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes nav-gradient {
+  0% { background-position: 0% 50%; }
+  0% { background-position: 100% 50%; }
+  0% { background-position: 0% 50%; }
+}
+
+.animate-nav-gradient {
+  background-size: 200% auto;
+  animation: gradient 4s ease infinite;
+}
