@@ -7,7 +7,7 @@ export default function FooterSection() {
     const links = [
         {
             title: "Home",
-            href: "/",
+            href: "/#start",
         },
         {
             title: "About Me",
@@ -18,8 +18,8 @@ export default function FooterSection() {
             href: "/projects",
         },
         {
-            title: "Github",
-            href: "/socials?github",
+            title: "GitHub",
+            href: "https://github.com/CoolV3",
         },
     ]
 
@@ -28,7 +28,7 @@ export default function FooterSection() {
             <div>
                 <Socials/>
             </div>
-            <div className="p-10 grid grid-cols-2">
+            <div className="sm:pr-10 md:pr-20 lg:pr-30 xl:pr-40 grid grid-cols-2 transition-all">
                 {links.map((link, index) => (
                     <Link href={link.href} key={index} className="flex items-center text-3xl group">{link.title} <MoveUpRight className="opacity-0 group-hover:opacity-100 transition-all duration-500 w-8 h-8"/></Link>
                 ))}

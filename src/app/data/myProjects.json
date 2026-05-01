@@ -1,0 +1,24 @@
+{
+  "Projects": [
+    {
+      "ID": "selbstgebauter-kaugummiautomat",
+      "Title": "Test Title 1.0",
+      "Images": ["/test-pic1.png", "/test-pic2.png", "/test-pic1.png"],
+      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    },
+    {
+      "ID": "selbstgebauter-chip",
+      "Title": "Chips",
+      "Images": ["/test-pic2.png", "/test-pic1.png", "/test-pic1.png"],
+      "ShortDescription": "Ein cooler selbstgebauter Chips",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    },{
+      "ID": "selbstgebauter-schokolade",
+      "Title": "Schokolade",
+      "Images": ["/test-pic1.png", "/OtherPrictures", "AnotherPicture"],
+      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    }
+  ]
+}

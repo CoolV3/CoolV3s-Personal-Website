@@ -27,16 +27,16 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col">
       <div className="h-20">
         <NavBar/>
       </div>
-      <div>
+      <div className="flex flex-col grow">
         {children}
       </div>
-      <div className="h-40">
+      <div className="h-40 justify-end">
         <FooterSection/>
       </div>
       </body>
