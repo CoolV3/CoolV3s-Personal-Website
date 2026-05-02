@@ -4,7 +4,7 @@
       "ID": "selbstgebauter-kaugummiautomat",
       "Title": "Lego Gumball Machine",
       "Images": ["/chewing_gum_machine_front.jpeg", "/chewing_gum_machine_mechanism.jpeg"],
-      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat aus Lego.",
+      "ShortDescription": "A cool gumball machine built from Lego without instructions.",
       "LongDescription": "## About the Project\n\nA gumball machine made of Lego that dispenses a piece of gumball at the push of a button.\n\n## Highlights\n* Very good mechanism, almost no errors\n* Small 5x5 light matrix\n* Compact design."
     },
     {
@@ -13,26 +13,13 @@
       "Images": ["/keychain-preview.png"],
       "ShortDescription": "Personalized keychain with OpenSCAD",
       "LongDescription": "A key chain, programmed with *OpenSCAD*, which is very easy to customize."
-    },{
+    },
+    {
       "ID": "personal-website",
       "Title": "Personal Website",
       "Images": ["/site-screenshot.png"],
       "ShortDescription": "Yeah, the website where you are currently on.",
       "LongDescription": "This is my Personal Website coded with the Next.js Framework. It has **no** Backend.\n\n\n### It contains the following Pages.\n- Home under `/`\n- Profile under `/profile`\n- Projects under `/projects`\n- Detailed Project Page under `/projects/detail`\n\n### How to add more Projects and make the Site yours:\nLook at the `/src/app/data/myProjects.json` file.\nThere you can add more projects. The Long Description should be written as MarkDown.\nIn `/src/components/navbar.tsx` you can change and add Links to the nav Bar.\nIn `/src/components/footer.tsx` you can change and add Links to the footer.\n\n\n\n### Tech Stack:\n- Next.js\n- Typescript\n- TailwindCSS\n\n### Run it yourself\n\n- First clone the repository and go into the folder from the repository.\n- Then run `pnpm install` to install all Dependencies.\n- After that start a local dev server with `pnpm dev`. \n\n\n\n Definitely not the same ReadMe as the one from GitHub :)"
-    },
-    {
-      "ID": "placeholder1",
-      "Title": "Placeholder",
-      "Images": ["/ATestPic.png", "/ATestPic.png"],
-      "ShortDescription": "This is for Testing because i have currently no more projects.",
-      "LongDescription": "#### A testing placeholder"
-    },
-    {
-      "ID": "test-test-test2",
-      "Title": "Placeholder",
-      "Images": ["/ATestPic.png", "/ATestPic.png"],
-      "ShortDescription": "Another placeholder for testing",
-      "LongDescription": "A placeholder for testing"
     }
   ]
 }

@@ -41,7 +41,7 @@ export default function ProjektSection({ howMany }: { howMany?: number}) {
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {Projects.map((project, index ) => (
                     <div key={index} className="flex flex-col bg-white rounded-2xl w-90 h-auto  items-center gap-4 p-2">
-                        <Image alt="Preview Picture" src={project.Images[0]} width="300" height="300" className="rounded-2xl pt-3 h-auto w-auto"/>
+                        <Image alt="Preview Picture" src={project.Images[0]} width="300" height="300" className="rounded-2xl pt-3 h-auto w-auto" priority={index < 4}/>
                         <h1 className=" text-4xl text-black text-center">{project.Title}</h1>
                         <p className="text-black text-center ">{project.ShortDescription}</p>
 
