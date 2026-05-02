@@ -19,6 +19,27 @@
       "Images": ["/test-pic1.png", "/OtherPrictures", "AnotherPicture"],
       "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
       "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    },
+    {
+      "ID": "selbstgebauter-schokolade",
+      "Title": "Schokolade",
+      "Images": ["/test-pic1.png", "/OtherPrictures", "AnotherPicture"],
+      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    },
+    {
+      "ID": "selbstgebauter-schokolade",
+      "Title": "Schokolade",
+      "Images": ["/test-pic1.png", "/OtherPrictures", "AnotherPicture"],
+      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
+    },
+    {
+      "ID": "selbstgebauter-schokolade",
+      "Title": "Schokolade",
+      "Images": ["/test-pic1.png", "/OtherPrictures", "AnotherPicture"],
+      "ShortDescription": "Ein cooler selbstgebauter Kaugummiautomat.",
+      "LongDescription": "## Über das Projekt \nDas ist ein kleiner Text über meinen **Kaugummi Automaten**.\n\n* Er sortiert Kaugummis nach Farbe\n* Er hat ein kleines Display"
     }
   ]
 }
