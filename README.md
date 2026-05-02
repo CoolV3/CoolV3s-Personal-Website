@@ -1,7 +1,7 @@
 
 # My Personal Website
 
-This is my Personal Website coded with the next.js JavaScript Framework.
+This is my Personal Website coded with the Next.js Framework.
 
 
 ### It contains the following Pages.
@@ -11,7 +11,7 @@ This is my Personal Website coded with the next.js JavaScript Framework.
 - Detailed Project Page under `/projects/detail`
 
 ### How to add more Projects and make the Site yours:
-Look at the `/src/app/myProjects.json` file.
+Look at the `/src/app/data/myProjects.json` file.
 There you can add more projects.
 In `/src/components/navbar.tsx` you can change and add Links to the nav Bar.
 in `/src/components/footer.tsx` you can change and add Links to the footer.
