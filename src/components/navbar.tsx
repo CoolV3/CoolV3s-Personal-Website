@@ -19,7 +19,7 @@ export default function NavBar() {
         },
         {
             title: "My Github",
-            href: "/blog"
+            href: "https://github.com/CoolV3"
         },
     ]
     const Name = "Constantin Meier"
@@ -53,14 +53,12 @@ export default function NavBar() {
                 </div>
                 <div className="w-full flex flex-col  items-center gap-5 pt-40">
                     {links.map((link, index) =>(
-                        <Link key={index} href={link.href} className="flex py-3 px-5 rounded-2xl transition bg-white text-black group items-center">{link.title} <MoveUpRight className="w-0 overflow-hidden group-hover:w-5 group-hover:ml-1 transition-all duration-500 text-black "/> </Link>
+                        <Link key={index} href={link.href} onClick={() => setMenuOpen(false)} className="flex py-3 px-5 rounded-2xl transition bg-white text-black group items-center">{link.title} <MoveUpRight className="w-0 overflow-hidden group-hover:w-5 group-hover:ml-1 transition-all duration-500 text-black "/> </Link>
                     ))}
                 </div>
 
             </div>
                 )}
-
-
         </div>
     )
 
