@@ -5,7 +5,7 @@ export default function AboutMeSection() {
 
     const AboutMeDescription = `Hi, I'm a student from Germany with a huge passion for **Web Development**.
 
-Building intuitive and fast websites is what I love doing most. I specialize in modern web technologies and enjoy bringing creative ideas to the browser. 
+Building websites is what I love doing most. I specialize in modern web technologies and enjoy bringing creative ideas to the browser. 
 
 ### My Tech Stack
 - **Web Development**: TypeScript, React, Next.js, HTML, and CSS (Tailwind)
